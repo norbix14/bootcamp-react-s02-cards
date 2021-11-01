@@ -20,6 +20,10 @@ img {
   width: 100%;
 }
 
+.rotate-45 {
+  transform: rotate(-45deg);
+}
+
 /* containers */
 .container {
   overflow: hidden;
@@ -96,9 +100,6 @@ img {
 }
 
 .price span {
-  position: absolute;
-  top: 0;
-  left: 0;
   font-size: 1.4rem;
 }
 
